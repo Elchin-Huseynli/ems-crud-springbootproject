@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    include:
+      - db
+      - openapi
+    active: prod
